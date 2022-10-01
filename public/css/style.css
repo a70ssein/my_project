@@ -1,0 +1,80 @@
+body{
+
+    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.container {
+
+    width: 1170px ;
+    margin: 0 auto ;
+}
+
+nav{
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 10px ;
+    color: rgb(248, 248, 248);
+}
+
+.myPic 
+{
+    height: 20%;
+width: auto;
+}
+.userDetails{
+background-color: rgb(44, 161, 161);
+display: flex;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+padding: auto;
+flex-grow: 2;
+}
+
+.userDetails h1{
+
+    margin: 0 ;
+    font-size: 28px;
+}
+
+.userDetails span {
+
+    
+    margin: 0%;
+    display: inline-block;
+}
+
+
+.home{
+    background-color: rgb(70, 194, 194);
+}
+
+.projects{
+    background-color: rgb(168, 233, 103);
+
+}
+.contact{
+    background-color:rgb(74, 136, 11);
+
+}
+.home,
+.projects,
+.contact{
+    color: rgb(247, 239, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.home ion-icon ,
+.projects ion-icon,
+.contact ion-icon {
+    font-size: 100px ;
+}
+
+
